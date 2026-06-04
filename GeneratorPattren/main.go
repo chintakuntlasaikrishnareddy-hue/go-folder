@@ -52,7 +52,7 @@ func main() {
 		fmt.Printf("[main]Recived: ID=%d|value=%s|Time=%s\n",
 			Item.ID,
 			Item.value,
-			Item.Timestamp.Format("24:00:00:000"),
+			Item.Timestamp.Format("24:00:00.000"),
 		)
 		time.Sleep(100 * time.Millisecond)
 	}
